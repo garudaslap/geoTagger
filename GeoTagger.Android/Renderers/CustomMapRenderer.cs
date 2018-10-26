@@ -56,7 +56,7 @@ namespace GeoTagger.Droid.Renderers
             marker.SetTitle(pin.Label);
             marker.SetSnippet(pin.Address);
 
-            var imageBitmap = GetImageBitmapFromUrl("http://xamarin.com/resources/design/home/devices.png");
+            //var imageBitmap = GetImageBitmapFromUrl("http://xamarin.com/resources/design/home/devices.png");
 
             return marker;
         }
